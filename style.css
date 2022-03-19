@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    background-color: rgb(32, 37, 49);
+    color:white;
+}
+ul{
+    padding: 5px;
+}
+ul li{
+    margin-left: 50px;
+    margin-bottom: 4px;
+    font-size: 2.3rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+#ros,#rand,#mal{
+    width: 100%;
+}
+#ros{
+    border: outset blueviolet 6px;
+}
+#rand{
+    border: inset rgb(171, 226, 43) 6px;
+}
+#mal{
+    border: outset rgb(151, 29, 29) 6px;
+}
+.time{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin: 0 15px;
+}
+
+.visualiacion{
+    width: 70%;
+    margin: 10% auto;
+    padding: 20px 10px;
+    border: rgba(128, 128, 128, 0.658) 2px solid;
+}
+.visualiacion p{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 4px;
+}
+.visualiacion .box{
+    box-sizing: content-box;
+    padding:10px ;
+    position: relative;
+    font-size: 2rem;
+    height: 600px;
+    border: rgba(128, 128, 128, 0.425) 2px solid;
+}
+
+.column{
+    position: absolute;
+    border: rgb(32, 37, 49) 2px solid;
+    bottom: 0;
+    background-color: white;
+    width: 2%;
+    height: 600px;
+}
+.visualiacion .newarray{
+    height: 300px ;
+}
+
+
+.blockbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.blockbox p{
+    font-size: 2rem;
+    white-space: nowrap;
+}
+.block{
+    position: relative;
+    margin: 0 10px 0 20px;
+    width: 20px;
+    min-width: 10px;
+    height: 20px;
+}
+.red{
+    background-color: #9E1D17;
+}
+.green{
+    background-color: #02F771;
+}
+.yellow{
+    background-color:#FAEE68 ;
+} 
+.blue{
+    background-color:#519998 ;
+}
+.orange{
+    background-color:#FF9C3D ;
+    
+}
+
+
+@media (max-width:1000px) {
+    html{
+        font-size: 6px;
+    }
+}
+@media (max-width:700px) {
+    html{
+        font-size: 5px;
+    }
+}
